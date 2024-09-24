@@ -1,13 +1,17 @@
 <idea-plugin>
   <id>monokai-pro</id>
-  <name>Monokai Pro Theme</name>
+  <name>Monokai Pro Theme - FORK</name>
   <vendor url="https://subtheme.dev">Subtheme</vendor>
-  <version>1.10</version>
+  <version>1.11</version>
 
   <depends>com.intellij.modules.lang</depends>
   <idea-version since-build="191.0"/>
 
   <change-notes><![CDATA[
+    <h3>1.11-fork</h3>
+    <ul>
+      <li>Working with latest Intelij version</li>
+    </ul>
     <h3>1.10</h3>
     <ul>
       <li>Updated dropdown selected background color</li>
@@ -90,18 +94,18 @@
   </description>
 
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="1bf66303-7318-44c3-8fae-6c6f0eb3fd53" path="/classic.theme.json"/>
-    <themeProvider id="96c210a3-cc3b-47c2-ba0f-6de6f50c18a3" path="/machine.theme.json"/>
-    <themeProvider id="342c21d9-7947-4ea7-8291-d4fd4e96fa36" path="/octagon.theme.json"/>
-    <themeProvider id="76cc8066-d21c-4e4c-8583-1b3f22e90e8f" path="/ristretto.theme.json"/>
-    <themeProvider id="ddd7798e-8bd6-4aa2-8345-a08190090321" path="/spectrum.theme.json"/>
-    <themeProvider id="b8abb5dc-b0c9-4d20-97f7-ec5cde31cfd7" path="/default.theme.json"/>
+    <themeProvider id="1bf66303-7318-44c3-8fae-6c6f0eb3fd53" path="/theme/classic.theme.json"/>
+    <themeProvider id="96c210a3-cc3b-47c2-ba0f-6de6f50c18a3" path="/theme/machine.theme.json"/>
+    <themeProvider id="342c21d9-7947-4ea7-8291-d4fd4e96fa36" path="/theme/octagon.theme.json"/>
+    <themeProvider id="76cc8066-d21c-4e4c-8583-1b3f22e90e8f" path="/theme/ristretto.theme.json"/>
+    <themeProvider id="ddd7798e-8bd6-4aa2-8345-a08190090321" path="/theme/spectrum.theme.json"/>
+    <themeProvider id="b8abb5dc-b0c9-4d20-97f7-ec5cde31cfd7" path="/theme/default.theme.json"/>
 
-    <bundledColorScheme path="/schemes/classic-no-italics"/>
-    <bundledColorScheme path="/schemes/machine-no-italics"/>
-    <bundledColorScheme path="/schemes/octagon-no-italics"/>
-    <bundledColorScheme path="/schemes/ristretto-no-italics"/>
-    <bundledColorScheme path="/schemes/spectrum-no-italics"/>
-    <bundledColorScheme path="/schemes/default-no-italics"/>
+    <bundledColorScheme id="Monokai Pro (Classic) - No Italics" path="/schemes/classic-no-italics"/>
+    <bundledColorScheme id="Monokai Pro (Filter Machine) - No Italics" path="/schemes/machine-no-italics"/>
+    <bundledColorScheme id="Monokai Pro (Filter Octagon) - No Italics" path="/schemes/octagon-no-italics"/>
+    <bundledColorScheme id="Monokai Pro (Filter Ristretto) - No Italics" path="/schemes/ristretto-no-italics"/>
+    <bundledColorScheme id="Monokai Pro (Filter Spectrum) - No Italics" path="/schemes/spectrum-no-italics"/>
+    <bundledColorScheme id="Monokai Pro - No Italics" path="/schemes/default-no-italics"/>
   </extensions>
 </idea-plugin>
